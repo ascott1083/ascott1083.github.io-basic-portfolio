@@ -2,7 +2,7 @@
 /* body */
 
 html { 
-    background: url('assets/images/download.jpeg') no-repeat center fixed; 
+    background: url('assets/images/white-waves.png') repeat center fixed; 
     background-size: cover;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
