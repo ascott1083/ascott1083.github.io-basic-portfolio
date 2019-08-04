@@ -32,16 +32,11 @@ html {
 
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
+    color: #4aaaa5;
     }
-div.absolute{
+div.absolute1{
     position: absolute;
-    background-color: #4aaaa5;
-    margin-top: -80px;
-    margin-left: 237px;
-    padding-right: 50px;
-    padding-left: 50px;
-    border: 60px;
+   
 }
 
 ul {
@@ -50,7 +45,6 @@ ul {
     padding-top: 9px;
     padding-bottom: 15px;
     overflow: hidden;
-    background-color: #ffffff;
     }
     
     li {
@@ -71,7 +65,7 @@ ul {
     color: white;
     }
 
-/* container */
+/* About */
 
 .container{
     text-align: left;
@@ -109,6 +103,8 @@ ul {
 
 
 
+
+
  /* portfolio html */
 
  .port{
@@ -142,7 +138,17 @@ ul {
   }
 
   .enter-info{
-      align-content: center;
+    align-content: center;
+    width: 600px;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+
   }
 
 
@@ -167,3 +173,28 @@ ul {
     background-color: gray;
 }    
 
+@media screen and (max-width:980px) {
+    ul {
+        width: auto;
+    }
+    div.absolute, h1{
+        width: auto;
+    }
+    .container{
+        width: auto;
+    }
+    .container img, .imgCopy, .container h2, .container p{
+        width: auto;
+    }
+    .port{
+        width: auto;
+    }
+
+}
+@media screen and (max-width:700px){
+    .log {
+            width: 100%;
+    }
+    .nav {
+            width: 100%;
+    }
