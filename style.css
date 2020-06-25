@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /* BODY STYLE */
 body {
 	background-image: url(../images/brushed.png);
@@ -292,3 +293,204 @@ footer {
 .container2 .btn:active {
 	background: #8fded9;
 }
+=======
+/* body */
+
+html { 
+    background: url('assets/images/white-waves.png') repeat center fixed; 
+    background-size: cover;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+  }
+
+/* footer */
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 3px;
+    border-color: #4aaaa5;
+ }
+
+
+ /* about html */
+
+
+/* header */
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    }
+div.absolute1{
+    position: absolute;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    }
+    
+    li {
+    float: right;
+    }
+    
+    li a {
+    display: block;
+    color: grey;
+    font-size: 24px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+    }
+
+/* About */
+
+.container{
+    text-align: left;
+    width: 960px;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+}    
+.container h2{
+    /* float: left; */
+    color: #4aaaa5;
+}
+
+.imgCopy {
+    position: relative;
+    display: block;
+    top: 0;
+}
+
+.container img{
+    margin-top: 20px;
+    display: inline;
+}
+.container p{
+    color: #777777;
+    display: inline;
+    position: absolute;
+    margin-left: 20px;
+}
+
+
+
+
+
+ /* portfolio html */
+
+ .port{
+    text-align: left;
+    width: 600px;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+}
+
+.port h2 {
+        color: #4aaaa5;
+}
+
+
+
+ /* contact html */
+
+ .contact-form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  h2{
+      color: #4aaaa5;
+  }
+
+  .enter-info{
+    align-content: center;
+    width: 600px;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin: 100px auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+}    
+
+@media screen and (max-width:980px) {
+    ul {
+        width: auto;
+    }
+    div.absolute, h1{
+        width: auto;
+    }
+    .container{
+        width: auto;
+    }
+    .container img, .imgCopy, .container h2, .container p{
+        width: auto;
+    }
+    .port{
+        width: auto;
+    }
+
+}
+@media screen and (max-width:700px){
+    .log {
+            width: 100%;
+    }
+    .nav {
+            width: 100%;
+    }
+>>>>>>> 2baf5310b32111d3eec97c974eefb8477dc64e19
