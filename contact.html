@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel = "stylesheet">
-    <title>My Portfolio</title>
+    <title> AJ Scott </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        a.link:visited{
+            color: #777777;
+        }
+    </style>
 </head>
-<body>
-        <ul>
-                <li><a  href="contact.html">Contact</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a class="active" href="about.html">About</a></li>
-              </ul>
+<body id="container">
+    <div id="content-wrap">
+        <header>
+            <section id="navbar" class="clearfix">
 
-    <div class="absolute">
-            <h1>AJ Scott</h1> 
+                <h1 id="name">AJ Scott</h1>
+
+                <nav>
+                    
+                    <a class="link" href="index.html">About</a> |
+                    <a class="link" href="portfolio.html">Portfolio</a> |
+                    <a class="link" href="contact.html">Contact</a>
+
+                </nav>
+
+            </section>
+        </header>
+        
+        <main class="clearfix">
+            <section id="contactline">
+                <h1 id="about">Contact</h1>
+            </section>
+
+            <form action="mailto:ascott1083@gmail.com" method="post" enctype="text/plain">
+            <p id="contactwords">Name</p>
+            <input id="input" type="text" name="name" placeholder="John Smith">
+            <p id="contactwords">Email</p>
+            <input id="input" type="text" name="email" placeholder="example@gmail.com">
+            <p id="contactwords">Message</p>
+            <textarea id="messageinput" name="message" type="text"></textarea><br>
+            <input type="submit" value="Submit"></form>
+        </main>
+
     </div>
-    <br>
-    <br>
     
-    <div class="contact-info">
-            <div style="text-align:left">
-              <h2>Contact Us</h2>
-              <hr>
-              </div>
-              
-              <div class="enter-info">
-                <form action="/action_page.php">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Smith..">
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="email"placeholder="example@gmail..">
-                  <br>
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="" style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
-                </form>
-              </div>
-            </div>
-          </div>
+    <footer>
+        <p id="copyright">copyright ©</p>
+    </footer>
 
-    <div class="footer">
-            <p>Footer</p>
-          </div>
-    
 </body>
+
 </html>
