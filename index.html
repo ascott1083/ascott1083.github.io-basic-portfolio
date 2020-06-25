@@ -1,78 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel = "stylesheet">
-    <title>My Portfolio</title>
+    <title> AJ Scott </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <style>
-    body {
-            width: 100%;
-            padding: 0;
-            margin: 0;
+    a.link:visited{
+        color: #777777;
     }
-    header{
-            width: 100%;
-        background-color: white;
-    }
-    .main-header{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .logo {
-            width: 30%;
-            float: left;
-    }
-    .nav {
-            width: 70;
-            float: right;
-    }
-
-    
-    }
-    </style>
+  </style>
 </head>
-<body>
+<body id="container">
+    <div id="content-wrap">
         <header>
-                <div class="main-header">
-                        <div class="logo">
-                                <div class="absolute1">
-                                        <h1>AJ Scott</h1> 
-                                </div>
-                        </div>
-                        <div class="nav">
-                                <ul>
-                                        <li><a  href="contact.html">Contact</a></li>
-                                        <li><a href="Portfolio.html">Portfolio</a></li>
-                                        <li><a class="active" href="index.html">About</a></li>
-                                </ul>
-                        </div>
-                </div>
+            <section id="navbar" class="clearfix">
+
+                <h1 id="name">AJ Scott</h1>
+
+                <nav>
+                    
+                    <a class="link" href="index.html">About</a> |
+                    <a class="link" href="portfolio.html">Portfolio</a> |
+                    <a class="link" href="contact.html">Contact</a>
+
+                </nav>
+
+            </section>
         </header>
+        <main class="clearfix">
+            <section id="aboutmeline">
+                <h1 id="about">About Me</h1>
+            </section>
+            <img id="image" alt="Mac" src="assets/images/image1.jpeg">
 
-              
-        
-    <br>
-    <br>
-    
-    <div class="container">
-        <h2>About me</h2>
-        <hr>
-        <div class="imgCopy">
-        <img src="assets/images/image1.jpeg"
-                alt="AJ" width="200" height="200"/>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo tempore nisi molestiae dignissimos. Et alias, enim numquam cupiditate, nobis sunt culpa debitis perferendis quasi vitae maiores, rerum ad porro cumque?</p>
- 
-        </div>
+            <p id="paragraph">
+                <br><br>
+                I have recently moved to Austin in May of 2019 in pursuit of something more.
+                <br><br>
+                I have recently completed my Web Development Certification from the University of Texas Coding Boot Camp, where I focused on both front-end and back-end web development.
+                I focus on efficiency, communication, creativity, and collaboration.
+                My goal is to expand my current skill set to create a lifelong career path in the tech industry serving clients and my organization.
+            </p>
+        </main>
     </div>
-
     
-    </div>
+    <footer>
+        <p id="copyright">copyright ©</p>
+    </footer>
 
-    <div class="footer">
-            <p>Copyright &copy; 2019</p>
-          </div>
-    
 </body>
+
 </html>
