@@ -1,116 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel = "stylesheet">
-    <title>My Portfolio</title>
-
+    <title> AJ Scott </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <style>
-                body {
-                        width: 100%;
-                        padding: 0;
-                        margin: 0;
-                }
-                header{
-                        width: 100%;
-                    background-color: white;
-                }
-                .main-header{
-                    width: 80%;
-                    margin: 0 auto;
-                }
-                .logo {
-                        width: 30%;
-                        float: left;
-                }
-                .nav {
-                        width: 70;
-                        float: right;
-                }
-            
-                </style>
+        a.page-link:visited {
+          color: white;
+        }
+
+        a.link:visited{
+            color: #777777;
+        }
+    </style>
 </head>
-<body>
-                <header>
-                                <div class="main-header">
-                                        <div class="logo">
-                                                <div class="absolute1">
-                                                        <h1>AJ Scott</h1> 
-                                                </div>
-                                        </div>
-                                        <div class="nav">
-                                                <ul>
-                                                        <li><a  href="contact.html">Contact</a></li>
-                                                        <li><a href="Portfolio.html">Portfolio</a></li>
-                                                        <li><a class="active" href="index.html">About</a></li>
-                                                </ul>
-                                        </div>
-                                </div>
-                        </header>
-    </div>
-    <br>
-    <br>
-    
-    <div class="container">
-  
-        <div class="row">
-          <div class="col-md-8 main-section">
-            <h1>Portfolio</h1>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="col-sm-12 thumbnail text-center">
-                  <a href="https://rmglennon.github.io/hangman-game/" target="_blank">
-                    <img class="img-responsive" src="assets/images/hangman.png" alt="Hangman">
-                    <div class="caption">
-                      <h3>Hangman</h3>
+<body id="container">
+    <div id="content-wrap">
+        <header>
+            <section id="navbar" class="clearfix">
+
+                <h1 id="name">AJ Scott</h1>
+
+                <nav>
+                    
+                    <a class="link" href="index.html">About</a> |
+                    <a class="link" href="portfolio.html">Portfolio</a> |
+                    <a class="link" href="contact.html">Contact</a>
+
+                </nav>
+
+            </section>
+        </header>
+
+        <main class="clearfix">
+
+            <section id="contactline">
+                <h1 id="about">Portfolio</h1>
+            </section>
+
+            <div class="column">
+                <div class="row">
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/food.jpg" alt="Giphy-API">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Giphs/">Giphy API</a></button>
                     </div>
-                  </a>
-                </div>
-              </div>
-              
-              <div class="col-md-4">
-                <div class="col-sm-12 thumbnail text-center">
-                  <a href="https://rmglennon.github.io/rescue-cats-game/" target="_blank">
-                    <img class="img-responsive" src="assets/images/cat3.jpg" alt="Cat rescue game">
-                    <div class="caption">
-                      <h3>Cat Rescue Game</h3>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/mario.jpeg" alt="JQuery">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Rescue-the-Princess/">Rescue the Princess</a></button>
                     </div>
-                  </a>
+                
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/question-mark1.jpeg" alt="Trivia-Game">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Trivia-Game/">Trivia Game</a></button>
+                    </div>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/train.jpg" alt="train scheduler">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/TrainScheduler/.">Train Scheduler</a></button>
+                    </div>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/soccer.jpg" alt="project 2">
+                    <button class="btn"><a class="page-link" href="https://sheltered-cliffs-00088.herokuapp.com/">Fantasy Pick'em</a></button>
+                    </div>
+
+                    <div class="container2">
+                        <img class="portimage spacer" src="assets/images/bitsngiggles.png" alt="project 3">
+                        <button class="btn"><a class="page-link" href="http://www.codebrahs.com/">Bits & Giggles</a></button>
+                        </div>
                 </div>
-              </div>
             </div>
             
-            <div class="row">
-              <div class="col-md-4">
-                <div class="col-sm-12 thumbnail text-center">
-                  <a href="https://rmglennon.github.io/trivia-game/" target="_blank">
-                    <img class="img-responsive" src="assets/images/trivia-game.png" alt="Trivia game">
-                    <div class="caption">
-                      <h3>Trivia Game</h3>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-md-4">
-                  <div class="col-sm-12 thumbnail text-center">
-                    <a href="https://rmglennon.github.io/fun-with-gifs/" target="_blank">
-                      <img class="img-responsive" src="assets/images/giphy-api.png" alt="API integration">
-                      <div class="caption">
-                        <h3>API Integration</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
+        </main>
 
-    
     </div>
-
-    <div class="footer">
-            <p>Footer</p>
-          </div>
     
+    <footer>
+        <p id="copyright">copyright ©</p>
+    </footer>
+
 </body>
+
 </html>
